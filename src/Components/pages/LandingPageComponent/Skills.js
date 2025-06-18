@@ -161,7 +161,6 @@ const Skills = () => {
     ];
     Matter.World.add(world, walls);
 
-    // Create bubbles
     const bubbles = skillList.map(() =>
       Matter.Bodies.circle(
         Math.random() * (width - 80) + 40,
