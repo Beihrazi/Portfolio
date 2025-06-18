@@ -1,20 +1,22 @@
-import Contact from "@/Components/pages/LandingPageComponent/Contact"
-import LandingPage from "@/Components/pages/LandingPageComponent/LandingPage"
-import ProjectPage from "@/Components/pages/LandingPageComponent/ProjectPage"
+import Contact from "@/Components/pages/LandingPageComponent/ContactComponent"
+import LandingPageComponent from "@/Components/pages/LandingPageComponent/LandingPageComponent"
+import ProjectPage from "@/Components/pages/LandingPageComponent/ProjectPageComponent"
 import SkillComponent from "@/Components/pages/LandingPageComponent/skill/SkillComponent"
-import WorkExperience from "@/Components/pages/LandingPageComponent/WorkExperience"
+import WorkExperience from "@/Components/pages/LandingPageComponent/WorkExperienceComponent"
 
-const page = () => {
+const LandingPage = () => {
     
   return (
     <div>
-      <LandingPage/>
+      <LandingPageComponent/>
       <WorkExperience/>
       <SkillComponent/>
       <ProjectPage/>
-      <Contact />
+      <Contact/>
+
+     
     </div>
   )
 }
 
-export default page
+export default LandingPage
