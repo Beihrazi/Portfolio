@@ -1,6 +1,6 @@
+import LandingPage from "@/Components/pages/LandingPageComponent/LandingPage";
 
-import LandingPage from "./LandingPage/page";
-import Experience from "./Experience/page";
+
 
 export const generateMetadata = () => ({
   title: "Portfolio | Beihrazi",
@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div>
      <LandingPage/>
-     {/* <Experience/> */}
+    
     </div>
   )
 }
