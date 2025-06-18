@@ -1,0 +1,28 @@
+// === theme color ===
+$primaryColor: #fff;
+$secondaryColor: #fff;
+$tertiaryColor: #fff;
+$lightColor: #fff;
+$redColor: #e33838;
+
+//=== Fonts ===
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins/poppins-light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins/poppins-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/poppins/poppins-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}

@@ -1,9 +1,18 @@
-import React from 'react'
+
+import LandingPage from "./LandingPage/page";
+import Experience from "./Experience/page";
+
+export const generateMetadata = () => ({
+  title: "Portfolio | Beihrazi",
+  description: "my-portfolio",
+});
+
 
 const page = () => {
   return (
     <div>
-      hello there apple
+     <LandingPage/>
+     {/* <Experience/> */}
     </div>
   )
 }
