@@ -1,7 +1,7 @@
 import { ButtonIcon } from "@/Components/common/ButtonIcon";
 import Image from "next/image";
 import { About } from "../../../../data/Mydata";
-const LandingPage = () => {
+const LandingPageComponent = () => {
   return (
     <div className="landing-page">
       <div className="container">
@@ -58,4 +58,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default LandingPageComponent;

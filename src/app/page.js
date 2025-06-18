@@ -1,5 +1,5 @@
-import LandingPage from "@/Components/pages/LandingPageComponent/LandingPage";
 
+import LandingPage from "./LandingPage";
 
 
 export const generateMetadata = () => ({
