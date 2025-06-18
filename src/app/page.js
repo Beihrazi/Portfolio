@@ -1,4 +1,4 @@
-import LandingPage from "./LandingPage/page";
+import Home from "./Home/page";
 
 export const generateMetadata = () => ({
   title: "Portfolio | Beihrazi",
@@ -8,7 +8,7 @@ export const generateMetadata = () => ({
 const page = () => {
   return (
     <div>
-      <LandingPage />
+     <Home/>
     </div>
   );
 };

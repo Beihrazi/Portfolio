@@ -4,7 +4,7 @@ import ProjectPage from "@/Components/pages/LandingPageComponent/ProjectPageComp
 import SkillComponent from "@/Components/pages/LandingPageComponent/skill/SkillComponent"
 import WorkExperience from "@/Components/pages/LandingPageComponent/WorkExperienceComponent"
 
-const LandingPage = () => {
+const Home = () => {
     
   return (
     <div>
@@ -13,10 +13,8 @@ const LandingPage = () => {
       <SkillComponent/>
       <ProjectPage/>
       <Contact/>
-
-     
     </div>
   )
 }
 
-export default LandingPage
+export default Home

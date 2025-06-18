@@ -1,5 +1,6 @@
 import { ButtonIcon } from "@/Components/common/ButtonIcon";
 import Image from "next/image";
+
 import { About } from "../../../../data/Mydata";
 const LandingPageComponent = () => {
   return (

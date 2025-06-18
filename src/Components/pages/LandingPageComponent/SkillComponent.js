@@ -107,7 +107,7 @@ const skillList = [
   },
 ];
 
-const Skills = () => {
+const SkillComponent = () => {
   const [positions, setPositions] = useState([]);
   const containerRef = useRef(null);
   const engineRef = useRef(Matter.Engine.create());
@@ -316,4 +316,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SkillComponent;

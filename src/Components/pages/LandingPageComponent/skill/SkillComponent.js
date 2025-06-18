@@ -2,7 +2,7 @@
 
 import dynamic from 'next/dynamic';
 
-const Skills = dynamic(() => import("../Skills"), {
+const Skills = dynamic(() => import("../SkillComponent"), {
   ssr: false,
 })
 
