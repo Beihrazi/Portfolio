@@ -9,16 +9,16 @@ const LandingPageComponent = () => {
         <div className="row flex  pos-relative">
           <div className="left flex center-center col-3-10 ">
             <div className="content color-white ">
-              <h1 className="regular ">Hi,</h1>
+              <h1 className="regular "><span id="reference"></span>Hi,</h1>
               <h1 className="regular">
                 I&apos;m
-                <span className="name  font-bold"> K Beihrazi</span>
+                <span className="gradient-t-m font-bold"> K Beihrazi</span>
               </h1>
 
               <p className="small font-light l-h-1-5 color-light-grey">
                 Full stack Developer
               </p>
-              <div className="btn">
+              {/* <div className="btn">
                 <ButtonIcon
                   title="Get started"
                   icon={
@@ -38,7 +38,7 @@ const LandingPageComponent = () => {
                     </svg>
                   }
                 />
-              </div>
+              </div> */}
             </div>
           </div>
 

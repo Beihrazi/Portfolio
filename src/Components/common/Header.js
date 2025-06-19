@@ -13,11 +13,11 @@ const Header = () => {
               <li>Experience</li>
               <li>Project</li>
               <li>Contact</li>
-              <li className="resume b-r-20 ">
+              <div className="resume b-r-20 ">
                 <div className="">
                   <p>Resume</p>
                 </div>
-              </li>
+              </div>
             </ul>
           </div>
         </div>
