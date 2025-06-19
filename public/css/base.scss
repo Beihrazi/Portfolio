@@ -177,6 +177,9 @@ a {
   font-weight: 400;
 }
 
+.extreme-tiny{
+  font-size: 14px;
+}
 .tiny {
   font-size: 18px;
 }
@@ -211,7 +214,7 @@ a {
   position: relative;
 }
 .cover-img {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
